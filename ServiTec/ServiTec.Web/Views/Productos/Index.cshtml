@@ -1,12 +1,7 @@
-﻿@model List<ServiTec.Web.Models.ProductoModel>
-@{
+﻿@{
     ViewBag.Title = "Index";
 }
 
 <h2>Productos</h2>
 
 <hr />
-@foreach (var producto in Model)
-{
-    <p>@producto.Id  @producto.Descripcion</p>
-}
